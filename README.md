@@ -12,7 +12,7 @@ You need to be outside of any folder or file or  directory and You must Be in ro
 ```nano /etc/ssh/sshd_config```
 
 # Paste the lines:
-`subsystem sftp internal-sftp` <br> (Ignore this line if it is already there in the file, just uncomment the exsisting line.)
+`subsystem sftp internal-sftp`(Ignore this line if it is already there in the file, just uncomment the exsisting line.) <br> 
 `Match User username`<br>
 `   ChrootDirectory %h`<br>
 `   AllowTCPForwarding no`<br>
