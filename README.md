@@ -1,6 +1,6 @@
 # How-To-Setup-FTP-Access
 
-1. You should be outside of any folder or file or  directory and You must Be in root user mode ``sudo -s`` or ``sudo su``.
+You need to be outside of any folder or file or  directory and You must Be in root user mode ``sudo -s`` or ``sudo su``.
 
 # Create User:
 ```sudo useradd -d /var/www username```
