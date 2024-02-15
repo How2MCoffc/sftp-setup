@@ -12,12 +12,12 @@ You need to be outside of any folder or file or  directory and You must Be in ro
 ```nano /etc/ssh/sshd_config```
 
 # Paste the lines:
-`subsystem sftp internal-sftp` (Ignore this line if it is already there in the file, just uncomment the exsisting line.)
-`Match User username`
-`   ChrootDirectory %h`
-`   AllowTCPForwarding no`
-`   X11Forwarding no`
-`   ForceCommand internal-sftp`
+`subsystem sftp internal-sftp` <br> (Ignore this line if it is already there in the file, just uncomment the exsisting line.)
+`Match User username`<br>
+`   ChrootDirectory %h`<br>
+`   AllowTCPForwarding no`<br>
+`   X11Forwarding no`<br>
+`   ForceCommand internal-sftp`<br>
 
 # Image
 ![Image](https://github.com/How2MCoffc/sftp-setup/assets/148950446/036215e0-3976-49d9-9da1-879dff28139a)
